@@ -18,8 +18,7 @@ enum TypeOfMarket{
         MIXED_MARKET = 0,
         FOOD_MARKET = 1,
         TECH_MARKET = 2,
-        CONSTRUCTION_MARKET = 3,
-        OTHER = 4
+        CONSTRUCTION_MARKET = 3
 };
 
 typedef struct {
@@ -35,8 +34,11 @@ typedef struct {
     char  location[20];
     int numOfEmployees;
     int marketID;
-    enum Employees* employees;
+    Employees* employees;
     enum TypeOfMarket type;
 }Marketplace;
+
+Marketplace* createMarket(char* fileName);
+void printMarket(Marketplace* marketplace);
 
 #endif //MARKETPLACES_FUNCTIONS_H
