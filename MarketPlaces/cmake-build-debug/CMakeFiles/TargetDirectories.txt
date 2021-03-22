@@ -1,0 +1,3 @@
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/MarketPlaces/cmake-build-debug/CMakeFiles/MarketPlaces.dir
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/MarketPlaces/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/MarketPlaces/cmake-build-debug/CMakeFiles/rebuild_cache.dir
