@@ -74,10 +74,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/MarketPlaces/Enums.h">
+			<Option target="MarketPlaces"/>
+		</Unit>
 		<Unit filename="D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/MarketPlaces/Functions.c">
 			<Option target="MarketPlaces"/>
 		</Unit>
 		<Unit filename="D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/MarketPlaces/Functions.h">
+			<Option target="MarketPlaces"/>
+		</Unit>
+		<Unit filename="D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/MarketPlaces/Structs.h">
 			<Option target="MarketPlaces"/>
 		</Unit>
 		<Unit filename="D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/MarketPlaces/main.c">

@@ -1,6 +1,7 @@
 //
 // Created by Antal József on 2021. 03. 22..
 //
+
 #include <stdlib.h>
 #include <stdio.h>
 #include "Functions.h"
@@ -38,10 +39,10 @@ void printMarket(Marketplace* marketplace){
     printf("The type of the market is: ");
 
     switch (marketplace->type) {
-        case MIXED_MARKET:  printf("Mixed market\n"); break;
-        case FOOD_MARKET:  printf("Food market\n"); break;
-        case TECH_MARKET:  printf("Tech market\n"); break;
-        case CONSTRUCTION_MARKET:  printf("Construction market\n"); break;
+        case MIXED_MARKET:  printf("Mixed market\n");break;
+        case FOOD_MARKET:  printf("Food market\n");break;
+        case TECH_MARKET:  printf("Tech market\n");break;
+        case CONSTRUCTION_MARKET:  printf("Construction market\n");break;
         default: printf("Other/n");break;
     }
 
@@ -60,6 +61,5 @@ void printMarket(Marketplace* marketplace){
             case LOADER: printf("Loader\n");break;
             case CLEANER: printf("Cleaner\n");break;
         }
-
     }
 }

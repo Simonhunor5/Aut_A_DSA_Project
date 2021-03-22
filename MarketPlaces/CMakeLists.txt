@@ -3,4 +3,4 @@ project(MarketPlaces C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(MarketPlaces main.c Functions.c Functions.h)
+add_executable(MarketPlaces main.c Functions.c Functions.h Enums.h Structs.h)
