@@ -26,6 +26,7 @@ Marketplace* createMarket(char* fileName)
         fscanf(fin,"%i",&marketplace->employees[i].yearOfBirth);
         fscanf(fin,"%i",&marketplace->employees[i].yearOfExperience);
         fscanf(fin,"%i",&marketplace->employees[i].position);
+        fscanf(fin,"%i",&marketplace->employees[i].gender);
     }
 
     return marketplace;
@@ -46,6 +47,7 @@ void printMarket(Marketplace* marketplace){
         default: printf("Other/n");break;
     }
 
+
     for (int i = 0; i < marketplace ->numOfEmployees; ++i) {
         printf("%i. %s ",i+1,marketplace->employees[i].firstName);
         printf("%s ",marketplace->employees[i].lastName);
@@ -54,12 +56,17 @@ void printMarket(Marketplace* marketplace){
         printf("The position is: ");
 
         switch (marketplace->employees[i].position) {
-            case DIRECTOR: printf("Director\n");break;
-            case MANAGER: printf("Mananger\n");break;
-            case SECRETARY: printf("Secretary\n");break;
-            case SELLER: printf("Seller\n");break;
-            case LOADER: printf("Loader\n");break;
-            case CLEANER: printf("Cleaner\n");break;
+            case DIRECTOR: printf("Director ");break;
+            case MANAGER: printf("Mananger ");break;
+            case SECRETARY: printf("Secretary ");break;
+            case SELLER: printf("Seller ");break;
+            case LOADER: printf("Loader ");break;
+            case CLEANER: printf("Cleaner ");break;
+        }
+        switch (marketplace->employees[i].gender) {
+            case MALE: printf("Male\n"); break;
+            case FEMALE: printf("Female\n"); break;
+
         }
     }
 }

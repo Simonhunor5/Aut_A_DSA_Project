@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/MarketPlaces/Functions.c" "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/MarketPlaces/cmake-build-debug/CMakeFiles/MarketPlaces.dir/Functions.c.obj"
-  "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/MarketPlaces/main.c" "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/MarketPlaces/cmake-build-debug/CMakeFiles/MarketPlaces.dir/main.c.obj"
+  "D:/DSA_lab/Aut_A_DSA_Project/MarketPlaces/Functions.c" "D:/DSA_lab/Aut_A_DSA_Project/MarketPlaces/cmake-build-debug/CMakeFiles/MarketPlaces.dir/Functions.c.obj"
+  "D:/DSA_lab/Aut_A_DSA_Project/MarketPlaces/main.c" "D:/DSA_lab/Aut_A_DSA_Project/MarketPlaces/cmake-build-debug/CMakeFiles/MarketPlaces.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

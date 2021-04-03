@@ -12,6 +12,7 @@ typedef struct {
     int yearOfBirth;
     int yearOfExperience;
     enum Position position;
+    enum Gender gender;
 }Employees;
 
 typedef struct {
