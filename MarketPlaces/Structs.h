@@ -5,7 +5,6 @@
 #ifndef MARKETPLACES_STRUCTS_H
 #define MARKETPLACES_STRUCTS_H
 
-
 typedef struct {
     char firstName[20];
     char lastName[20];
@@ -13,16 +12,15 @@ typedef struct {
     int yearOfExperience;
     enum Position position;
     enum Gender gender;
-}Employees;
+} Employees;
 
 typedef struct {
-    char  marketplaceName[20];
-    char  location[20];
+    char marketplaceName[20];
+    char location[20];
     int numOfEmployees;
     int marketID;
-    Employees* employees;
+    Employees *employees;
     enum TypeOfMarket type;
-}Marketplace;
-
+} Marketplace;
 
 #endif //MARKETPLACES_STRUCTS_H

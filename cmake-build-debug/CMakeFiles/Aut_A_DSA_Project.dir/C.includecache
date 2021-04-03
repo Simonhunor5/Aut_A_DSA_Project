@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/MarketPlaces/Enums.h
+
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/MarketPlaces/Functions.c
+stdlib.h
+-
+stdio.h
+-
+Functions.h
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/MarketPlaces/Functions.h
+
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/MarketPlaces/Functions.h
+Enums.h
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/MarketPlaces/Enums.h
+Structs.h
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/MarketPlaces/Structs.h
+
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/MarketPlaces/Structs.h
+

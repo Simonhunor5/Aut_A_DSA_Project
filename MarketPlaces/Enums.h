@@ -5,7 +5,7 @@
 #ifndef MARKETPLACES_ENUMS_H
 #define MARKETPLACES_ENUMS_H
 
-enum Position{
+enum Position {
     DIRECTOR = 0,
     MANAGER = 1,
     SECRETARY = 2,
@@ -14,7 +14,7 @@ enum Position{
     CLEANER = 5
 };
 
-enum TypeOfMarket{
+enum TypeOfMarket {
     MIXED_MARKET = 0,
     FOOD_MARKET = 1,
     TECH_MARKET = 2,
