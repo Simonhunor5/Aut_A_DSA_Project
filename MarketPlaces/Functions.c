@@ -94,8 +94,8 @@ void printMarket(Marketplace *marketplace) {
 
         }
     }
-
-    void MvpEmployees(Marketplace *marketplace){
+}
+    void MvpEmployees(Marketplace* marketplace){
 
         int tmp = marketplace->employees[0].yearOfExperience;
 
@@ -108,7 +108,7 @@ void printMarket(Marketplace *marketplace) {
             if(tmp == marketplace->employees[i].yearOfExperience){
                 printf("%i. %s ", i + 1, marketplace->employees[i].firstName);
                 printf("%s", marketplace->employees[i].lastName);
-                printf("%i", marketplace->employees[i].yearOfExperience;
+                printf("%i", marketplace->employees[i].yearOfExperience);
             }
         }
     }
@@ -146,4 +146,3 @@ void printMarket(Marketplace *marketplace) {
             }
         }
     }
-}

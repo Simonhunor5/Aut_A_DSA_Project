@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project"
+CMAKE_SOURCE_DIR = C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Aut_A_DSA_Project.dir/depend.make
@@ -79,30 +79,30 @@ include CMakeFiles/Aut_A_DSA_Project.dir/flags.make
 CMakeFiles/Aut_A_DSA_Project.dir/MarketPlaces/Functions.c.obj: CMakeFiles/Aut_A_DSA_Project.dir/flags.make
 CMakeFiles/Aut_A_DSA_Project.dir/MarketPlaces/Functions.c.obj: CMakeFiles/Aut_A_DSA_Project.dir/includes_C.rsp
 CMakeFiles/Aut_A_DSA_Project.dir/MarketPlaces/Functions.c.obj: ../MarketPlaces/Functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Aut_A_DSA_Project.dir/MarketPlaces/Functions.c.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Aut_A_DSA_Project.dir\MarketPlaces\Functions.c.obj   -c "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\MarketPlaces\Functions.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Aut_A_DSA_Project.dir/MarketPlaces/Functions.c.obj"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Aut_A_DSA_Project.dir\MarketPlaces\Functions.c.obj   -c C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\MarketPlaces\Functions.c
 
 CMakeFiles/Aut_A_DSA_Project.dir/MarketPlaces/Functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Aut_A_DSA_Project.dir/MarketPlaces/Functions.c.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\MarketPlaces\Functions.c" > CMakeFiles\Aut_A_DSA_Project.dir\MarketPlaces\Functions.c.i
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\MarketPlaces\Functions.c > CMakeFiles\Aut_A_DSA_Project.dir\MarketPlaces\Functions.c.i
 
 CMakeFiles/Aut_A_DSA_Project.dir/MarketPlaces/Functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Aut_A_DSA_Project.dir/MarketPlaces/Functions.c.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\MarketPlaces\Functions.c" -o CMakeFiles\Aut_A_DSA_Project.dir\MarketPlaces\Functions.c.s
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\MarketPlaces\Functions.c -o CMakeFiles\Aut_A_DSA_Project.dir\MarketPlaces\Functions.c.s
 
 CMakeFiles/Aut_A_DSA_Project.dir/MarketPlaces/main.c.obj: CMakeFiles/Aut_A_DSA_Project.dir/flags.make
 CMakeFiles/Aut_A_DSA_Project.dir/MarketPlaces/main.c.obj: CMakeFiles/Aut_A_DSA_Project.dir/includes_C.rsp
 CMakeFiles/Aut_A_DSA_Project.dir/MarketPlaces/main.c.obj: ../MarketPlaces/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Aut_A_DSA_Project.dir/MarketPlaces/main.c.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Aut_A_DSA_Project.dir\MarketPlaces\main.c.obj   -c "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\MarketPlaces\main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Aut_A_DSA_Project.dir/MarketPlaces/main.c.obj"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Aut_A_DSA_Project.dir\MarketPlaces\main.c.obj   -c C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\MarketPlaces\main.c
 
 CMakeFiles/Aut_A_DSA_Project.dir/MarketPlaces/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Aut_A_DSA_Project.dir/MarketPlaces/main.c.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\MarketPlaces\main.c" > CMakeFiles\Aut_A_DSA_Project.dir\MarketPlaces\main.c.i
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\MarketPlaces\main.c > CMakeFiles\Aut_A_DSA_Project.dir\MarketPlaces\main.c.i
 
 CMakeFiles/Aut_A_DSA_Project.dir/MarketPlaces/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Aut_A_DSA_Project.dir/MarketPlaces/main.c.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\MarketPlaces\main.c" -o CMakeFiles\Aut_A_DSA_Project.dir\MarketPlaces\main.c.s
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\MarketPlaces\main.c -o CMakeFiles\Aut_A_DSA_Project.dir\MarketPlaces\main.c.s
 
 # Object files for target Aut_A_DSA_Project
 Aut_A_DSA_Project_OBJECTS = \
@@ -118,7 +118,7 @@ Aut_A_DSA_Project.exe: CMakeFiles/Aut_A_DSA_Project.dir/build.make
 Aut_A_DSA_Project.exe: CMakeFiles/Aut_A_DSA_Project.dir/linklibs.rsp
 Aut_A_DSA_Project.exe: CMakeFiles/Aut_A_DSA_Project.dir/objects1.rsp
 Aut_A_DSA_Project.exe: CMakeFiles/Aut_A_DSA_Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Aut_A_DSA_Project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Aut_A_DSA_Project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Aut_A_DSA_Project.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -131,6 +131,6 @@ CMakeFiles/Aut_A_DSA_Project.dir/clean:
 .PHONY : CMakeFiles/Aut_A_DSA_Project.dir/clean
 
 CMakeFiles/Aut_A_DSA_Project.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project" "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project" "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\cmake-build-debug" "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\cmake-build-debug" "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\cmake-build-debug\CMakeFiles\Aut_A_DSA_Project.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\cmake-build-debug C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\cmake-build-debug C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\cmake-build-debug\CMakeFiles\Aut_A_DSA_Project.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Aut_A_DSA_Project.dir/depend
 
