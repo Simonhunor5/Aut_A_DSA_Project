@@ -95,54 +95,99 @@ void printMarket(Marketplace *marketplace) {
         }
     }
 }
-    void MvpEmployees(Marketplace* marketplace){
 
-        int tmp = marketplace->employees[0].yearOfExperience;
+void MvpEmployees(Marketplace *marketplace) {
 
-        for (int i = 1; i < marketplace->numOfEmployees; ++i) {
-            if(tmp < marketplace->employees[i].yearOfExperience)
+    int tmp = marketplace->employees[0].yearOfExperience;
+
+    for (int i = 1; i < marketplace->numOfEmployees; ++i) {
+        if (tmp < marketplace->employees[i].yearOfExperience)
             tmp = marketplace->employees[i].yearOfExperience;
-        }
+    }
 
-        for (int i = 0; i < marketplace->numOfEmployees; ++i) {
-            if(tmp == marketplace->employees[i].yearOfExperience){
-                printf("%i. %s ", i + 1, marketplace->employees[i].firstName);
-                printf("%s", marketplace->employees[i].lastName);
-                printf("%i", marketplace->employees[i].yearOfExperience);
-            }
+    for (int i = 0; i < marketplace->numOfEmployees; ++i) {
+        if (tmp == marketplace->employees[i].yearOfExperience) {
+            printf("%i. %s ", i + 1, marketplace->employees[i].firstName);
+            printf("%s", marketplace->employees[i].lastName);
+            printf("%i", marketplace->employees[i].yearOfExperience);
+        }
+    }
+}
+
+void printFemale(Marketplace *marketplace) {
+    printf("Female employees: ");
+
+    for (int i = 0; i < marketplace->numOfEmployees; ++i) {
+        if (marketplace->employees[i].gender == 1) {
+            printf("%i. %s ", i + 1, marketplace->employees[i].firstName);
+            printf("%s\n", marketplace->employees[i].lastName);
         }
     }
 
-    void printFemale(Marketplace *marketplace) {
-        printf("Female employees: ");
+}
 
-        for (int i = 0; i < marketplace->numOfEmployees; ++i) {
-            if (marketplace->employees[i].gender == 1) {
-                printf("%i. %s ", i + 1, marketplace->employees[i].firstName);
-                printf("%s\n", marketplace->employees[i].lastName);
-            }
-        }
+void printMale(Marketplace *marketplace) {
+    printf("Male employees: ");
 
-    }
-
-    void printMale(Marketplace *marketplace) {
-        printf("Male employees: ");
-
-        for (int i = 0; i < marketplace->numOfEmployees; ++i) {
-            if (marketplace->employees[i].gender == 0) {
-                printf("%i. %s ", i + 1, marketplace->employees[i].firstName);
-                printf("%s\n", marketplace->employees[i].lastName);
-            }
+    for (int i = 0; i < marketplace->numOfEmployees; ++i) {
+        if (marketplace->employees[i].gender == 0) {
+            printf("%i. %s ", i + 1, marketplace->employees[i].firstName);
+            printf("%s\n", marketplace->employees[i].lastName);
         }
     }
+}
 
-    void printSellers(Marketplace *marketplace){
-        printf("Sellers: ");
+void printSellers(Marketplace *marketplace) {
+    printf("Sellers: ");
 
-        for (int i = 0; i < marketplace->numOfEmployees; ++i) {
-            if (marketplace->employees[i].position == 3) {
-                printf("%i. %s ", i + 1, marketplace->employees[i].firstName);
-                printf("%s\n", marketplace->employees[i].lastName);
-            }
+    for (int i = 0; i < marketplace->numOfEmployees; ++i) {
+        if (marketplace->employees[i].position == 3) {
+            printf("%i. %s ", i + 1, marketplace->employees[i].firstName);
+            printf("%s\n", marketplace->employees[i].lastName);
         }
     }
+}
+
+void printManagers(Marketplace *marketplace) {
+    printf("Managers: ");
+
+    for (int i = 0; i < marketplace->numOfEmployees; ++i) {
+        if (marketplace->employees[i].position == 1) {
+            printf("%i. %s ", i + 1, marketplace->employees[i].firstName);
+            printf("%s\n", marketplace->employees[i].lastName);
+        }
+    }
+}
+
+void printCleanes(Marketplace *marketplace) {
+    printf("Cleaners: ");
+
+    for (int i = 0; i < marketplace->numOfEmployees; ++i) {
+        if (marketplace->employees[i].position == 5) {
+            printf("%i. %s ", i + 1, marketplace->employees[i].firstName);
+            printf("%s\n", marketplace->employees[i].lastName);
+        }
+    }
+}
+
+void printLoaders(Marketplace *marketplace) {
+    printf("Loaders: ");
+
+    for (int i = 0; i < marketplace->numOfEmployees; ++i) {
+        if (marketplace->employees[i].position == 4) {
+            printf("%i. %s ", i + 1, marketplace->employees[i].firstName);
+            printf("%s\n", marketplace->employees[i].lastName);
+        }
+    }
+}
+
+void printDirectors(Marketplace *marketplace) {
+    printf("Directors: ");
+
+    for (int i = 0; i < marketplace->numOfEmployees; ++i) {
+        if (marketplace->employees[i].position == 0) {
+            printf("%i. %s ", i + 1, marketplace->employees[i].firstName);
+            printf("%s\n", marketplace->employees[i].lastName);
+        }
+    }
+}

@@ -21,9 +21,9 @@ enum TypeOfMarket {
     CONSTRUCTION_MARKET = 3
 };
 
-enum Gender{
-    MALE=0,
-    FEMALE=1
+enum Gender {
+    MALE = 0,
+    FEMALE = 1
 };
 
 #endif //MARKETPLACES_ENUMS_H
