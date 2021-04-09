@@ -17,29 +17,41 @@ int main() {
            "5:Irasd ki a managereket!\n"
            "6:Irasd ki a takaritokat\n"
            "7:Irasd ki a feltoltoket\n"
-           "8:Irasd ki az igazgatot(kat)\n");
+           "8:Irasd ki az igazgatot(kat)\n"
+           "9: Exit\n");
     int x;
     printf("Add meg mit szeretnel tenni: ");
     scanf("%i", &x);
-    switch (x) {
-        case 1:
-            printMarket(marketplace);
-        case 2:
-            printMale(marketplace);
-        case 3:
-            printFemale(marketplace);
-        case 4:
-            printSellers(marketplace);
-        case 5:
-            printManagers(marketplace);
-        case 6:
-            printCleaners(marketplace);
-        case 7:
-            printLoaders(marketplace);
-        case 8:
-            printDirectors(marketplace);
+    do {
+        switch (x) {
+            case 1:
+                printMarket(marketplace);
+                break;
+            case 2:
+                printMale(marketplace);
+                break;
+            case 3:
+                printFemale(marketplace);
+                break;
+            case 4:
+                printSellers(marketplace);
+                break;
+            case 5:
+                printManagers(marketplace);
+                break;
+            case 6:
+                printCleaners(marketplace);
+                break;
+            case 7:
+                printLoaders(marketplace);
+                break;
+            case 8:
+                printDirectors(marketplace);
+                break;
 
-    }
+        }
+
+    } while (x != 9);
 
 
     return 0;

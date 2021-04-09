@@ -159,7 +159,7 @@ void printManagers(Marketplace *marketplace) {
     }
 }
 
-void printCleanes(Marketplace *marketplace) {
+void printCleaners(Marketplace *marketplace) {
     printf("Cleaners: ");
 
     for (int i = 0; i < marketplace->numOfEmployees; ++i) {
