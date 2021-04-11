@@ -3,14 +3,14 @@
 
 int main() {
 
-    Marketplace *marketplace = createMarket("import.txt");
-    /*printMarket(marketplace);
-    MvpEmployees(marketplace);
-    printMale(marketplace);
-    printFemale(marketplace);
-    printSellers(marketplace);*/
+    printf("ge");
 
-    printf("\n1:Irasd ki a dolgozokat! \n "
+    Marketplace *marketplace = createMarket("Penny.txt");
+
+
+
+
+    printf("\n1:Irasd ki a dolgozokat! \n"
            "2:Irasd ki a ferfiakat!\n"
            "3:Irasd ki a noket!\n"
            "4:Irasd ki az eladokat!\n"
@@ -21,8 +21,11 @@ int main() {
            "9: Exit\n");
     int x;
     printf("Add meg mit szeretnel tenni: ");
-    scanf("%i", &x);
+
     do {
+
+        scanf("%i", &x);
+
         switch (x) {
             case 1:
                 printMarket(marketplace);

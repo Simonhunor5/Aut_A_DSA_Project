@@ -52,7 +52,7 @@ void printMarket(Marketplace *marketplace) {
             printf("Construction market\n");
             break;
         default:
-            printf("Other/n");
+            printf("Other\n");
             break;
     }
 

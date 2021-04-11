@@ -12,7 +12,7 @@ typedef struct {
     int yearOfExperience;
     enum Position position;
     enum Gender gender;
-} Employees;
+}Employees;
 
 typedef struct {
     char marketplaceName[20];
@@ -21,6 +21,6 @@ typedef struct {
     int marketID;
     Employees *employees;
     enum TypeOfMarket type;
-} Marketplace;
+}Marketplace;
 
 #endif //MARKETPLACES_STRUCTS_H
