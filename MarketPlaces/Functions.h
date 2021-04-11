@@ -18,14 +18,8 @@ void printFemale(Marketplace *marketplace);
 
 void printMale(Marketplace *marketplace);
 
-void printSellers(Marketplace *marketplace);
+void printPosition(Marketplace *marketplace);
 
-void printManagers(Marketplace *marketplace);
-
-void printCleaners(Marketplace *marketplace);
-
-void printLoaders(Marketplace *marketplace);
-
-void printDirectors(Marketplace *marketplace);
+void addEmployee(Marketplace *marketplace);
 
 #endif //MARKETPLACES_FUNCTIONS_H

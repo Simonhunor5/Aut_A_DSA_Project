@@ -137,57 +137,30 @@ void printMale(Marketplace *marketplace) {
     }
 }
 
-void printSellers(Marketplace *marketplace) {
-    printf("Sellers: ");
+void printPosition(Marketplace *marketplace) {
+    printf("Which position do you want to see?\n"
+           "    DIRECTOR = 0\n"
+           "    MANAGER = 1\n"
+           "    SECRETARY = 2\n"
+           "    SELLER = 3\n"
+           "    LOADER = 4\n"
+           "    CLEANER = 5\n");
+
+     int postion;
+     printf("Give me the number: ");
+     scanf("%i", &postion);
 
     for (int i = 0; i < marketplace->numOfEmployees; ++i) {
-        if (marketplace->employees[i].position == 3) {
+        if (marketplace->employees[i].position == postion) {
             printf("%i. %s ", i + 1, marketplace->employees[i].firstName);
             printf("%s\n", marketplace->employees[i].lastName);
         }
     }
 }
 
-void printManagers(Marketplace *marketplace) {
-    printf("Managers: ");
+void addEmployee(Marketplace *marketplace)
+{
+    marketplace->numOfEmployees++;
 
-    for (int i = 0; i < marketplace->numOfEmployees; ++i) {
-        if (marketplace->employees[i].position == 1) {
-            printf("%i. %s ", i + 1, marketplace->employees[i].firstName);
-            printf("%s\n", marketplace->employees[i].lastName);
-        }
-    }
-}
-
-void printCleaners(Marketplace *marketplace) {
-    printf("Cleaners: ");
-
-    for (int i = 0; i < marketplace->numOfEmployees; ++i) {
-        if (marketplace->employees[i].position == 5) {
-            printf("%i. %s ", i + 1, marketplace->employees[i].firstName);
-            printf("%s\n", marketplace->employees[i].lastName);
-        }
-    }
-}
-
-void printLoaders(Marketplace *marketplace) {
-    printf("Loaders: ");
-
-    for (int i = 0; i < marketplace->numOfEmployees; ++i) {
-        if (marketplace->employees[i].position == 4) {
-            printf("%i. %s ", i + 1, marketplace->employees[i].firstName);
-            printf("%s\n", marketplace->employees[i].lastName);
-        }
-    }
-}
-
-void printDirectors(Marketplace *marketplace) {
-    printf("Directors: ");
-
-    for (int i = 0; i < marketplace->numOfEmployees; ++i) {
-        if (marketplace->employees[i].position == 0) {
-            printf("%i. %s ", i + 1, marketplace->employees[i].firstName);
-            printf("%s\n", marketplace->employees[i].lastName);
-        }
-    }
+    
 }

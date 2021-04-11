@@ -10,6 +10,7 @@ int main() {
 
 
 
+
     printf("\n1:Irasd ki a dolgozokat! \n"
            "2:Irasd ki a ferfiakat!\n"
            "3:Irasd ki a noket!\n"
@@ -37,24 +38,13 @@ int main() {
                 printFemale(marketplace);
                 break;
             case 4:
-                printSellers(marketplace);
+                printPosition(marketplace);
                 break;
-            case 5:
-                printManagers(marketplace);
-                break;
-            case 6:
-                printCleaners(marketplace);
-                break;
-            case 7:
-                printLoaders(marketplace);
-                break;
-            case 8:
-                printDirectors(marketplace);
-                break;
+
 
         }
 
-    } while (x != 9);
+    } while (x != 5);
 
 
     return 0;
