@@ -28,7 +28,10 @@ Marketplace *createMarket(char *fileName) {
         fscanf(fin, "%i", &marketplace->employees[i].gender);
     }
 
+    //fclose((FILE *) fileName);
+
     return marketplace;
+
 }
 
 void printMarket(Marketplace *marketplace) {
@@ -96,33 +99,30 @@ void printMarket(Marketplace *marketplace) {
     }
 }
 
-void MvpEmployees(Marketplace *marketplace) {
+Employees mvpEmployees(Marketplace *marketplace) {
 
-    int tmp = marketplace->employees[0].yearOfExperience;
+    Employees tmp = marketplace->employees[0];
 
     for (int i = 1; i < marketplace->numOfEmployees; ++i) {
-        if (tmp < marketplace->employees[i].yearOfExperience)
-            tmp = marketplace->employees[i].yearOfExperience;
+        if (tmp.yearOfExperience < marketplace->employees[i].yearOfExperience)
+            tmp = marketplace->employees[i];
     }
 
-    for (int i = 0; i < marketplace->numOfEmployees; ++i) {
-        if (tmp == marketplace->employees[i].yearOfExperience) {
-            printf("%i. %s ", i + 1, marketplace->employees[i].firstName);
-            printf("%s", marketplace->employees[i].lastName);
-            printf("%i", marketplace->employees[i].yearOfExperience);
-        }
-    }
+    return tmp;
+
 }
 
-void printFemale(Marketplace *marketplace) {
-    printf("Female employees: ");
+int printFemale(Marketplace *marketplace) {
+
+    int count = 0;
 
     for (int i = 0; i < marketplace->numOfEmployees; ++i) {
         if (marketplace->employees[i].gender == 1) {
-            printf("%i. %s ", i + 1, marketplace->employees[i].firstName);
-            printf("%s\n", marketplace->employees[i].lastName);
+            count++;
         }
     }
+
+    return count;
 
 }
 
@@ -160,7 +160,59 @@ void printPosition(Marketplace *marketplace) {
 
 void addEmployee(Marketplace *marketplace)
 {
+
     marketplace->numOfEmployees++;
 
-    
+    marketplace->employees = (Employees *) realloc(marketplace->employees, marketplace->numOfEmployees);
+
+    printf("Give me the new employee firstname: ");
+    scanf("%s", marketplace->employees[marketplace->numOfEmployees - 1].firstName);
+    printf("Give me the new employee lastname: ");
+    scanf("%s", marketplace->employees[marketplace->numOfEmployees - 1].lastName);
+    printf("Give me the new employee year of birth: ");
+    scanf("%i", &marketplace->employees[marketplace->numOfEmployees - 1].yearOfBirth);
+    printf("Give me the new employee year of experience: ");
+    scanf("%i", &marketplace->employees[marketplace->numOfEmployees - 1].yearOfExperience);
+    printf("Give me the new employee year of position: \n"
+           "    DIRECTOR = 0\n"
+           "    MANAGER = 1\n"
+           "    SECRETARY = 2\n"
+           "    SELLER = 3\n"
+           "    LOADER = 4\n"
+           "    CLEANER = 5\n");
+    scanf("%i", &marketplace->employees[marketplace->numOfEmployees - 1].position);
+    printf("Give me the new employee gender: \n"
+           "    MALE = 0\n"
+           "    FEMALE = 1\n");
+    scanf("%i", &marketplace->employees[marketplace->numOfEmployees - 1].gender);
+
+}
+
+int cmpfunc (const Employees * a, const Employees * b) {
+    return ( (*(Employees *)a).yearOfBirth - (*(Employees *)b).yearOfBirth );
+}
+
+void qsortByAge(Marketplace* marketplace)
+{
+    qsort(marketplace->employees, marketplace->numOfEmployees, sizeof(Employees), cmpfunc);
+}
+
+int cmpfunc1 (const Employees * a, const Employees * b) {
+    return ( (*(Employees *)a).yearOfExperience - (*(Employees *)b).yearOfExperience );
+}
+
+void qsortByYearOfExperince(Marketplace* marketplace)
+{
+    qsort(marketplace->employees, marketplace->numOfEmployees, sizeof(Employees), cmpfunc1);
+}
+
+float avgYearOfBirth(Marketplace* marketplace)
+{
+    int sum = 0;
+
+    for (int i = 0; i < marketplace->numOfEmployees; ++i) {
+        sum += marketplace->employees[i].yearOfBirth;
+    }
+
+    return sum/marketplace->numOfEmployees;
 }

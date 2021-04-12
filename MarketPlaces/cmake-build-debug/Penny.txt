@@ -1,4 +1,4 @@
-Penny Gheorgheni 9 0002 0
+Penny Gheorgheni 107 0002 0
 Szekely Anett 2001 2 3 1
 Varga Viola 2000 1 1 1
 Kecseti Csenge 2001 5 2 1
@@ -8,3 +8,101 @@ Kovacs Gergo 2000 5 0 0
 Fulop Norbert 2001 1 4 0
 Nagy Balazs 2001 2 5 0
 Ferenczi Apor 2001 4 1 0
+Sarolt Martin 1999 2 0
+Petocs Jonas 2000 1 0
+Elemer Barany 2001 3 0
+Hanna Dezso 2002 4 0
+Szilagyi Beata 2001 5 0
+Sarolt Kato 2000 4 0
+Matyas Zeteny 1998 3 0
+Czinege Vencel 2001 2 0
+Izidora Biro 2000 1 0
+Mihaly Balog 1999 2 0
+Nikolasz Csaszar 2000 1 0
+Adrienn Vencel 2001 2 0
+Bernat Szombathy 1999 2 0
+Magdi Sarkozi 1998 3 0 1
+Julianna Kis 1997 4 1 1
+Erzsi Salamon 1998 5 1 1
+Ibolya Toth 1998 5 1 1
+Lidia Szanto 2001 4 1 1
+Geza Pusztai 2003 3 1 0
+Brigitta Kiss 2001 2 1 1
+Orsolya Bodnar 2001 1 1 1
+Lara Grosz 2003 1 1 1
+Fruzsina Vastagh 2004 2 1 1
+Jonas Szabo 2003 3 1 0
+Gusztav Kover 2001 3 1 0
+Eva Herczog 2001 3 1 1
+Johanna Tot 2000 3 1 1
+Mira Szekely 2000 3 1 1
+Boldizsar Biro 2000 4 1 0
+Marta Sarka 2000 4 2 1
+Kata Pesti 2000 4 2 1
+Odon Torok 2000 4 2 0
+Olga Szombathy 2000 4 2 1
+Hanga Buday 2000 3 2 1
+Zsolt Varga 2000 2 2 0
+Melinda Herczog 2000 1 2 1
+Szilveszter Szanto 2000 1 2 0
+Sarika Kemeny 2000 2 2 1
+Balazs Virag 2000 2 2 0
+Barbara Fazekas 2000 2 2 1
+Agi Simon 2000 2 2 1
+Adrienn Fejes 2000 3 2 1
+Janka Katona 2000 3 2 1
+Olimpia Szarka 2000 3 2 1
+Alexander Sarkozy 2000 3 2 0
+Izsak Kertesz 2000 1 2 0
+Gitta Kis 2000 1 2 0
+Laszlo Toth 2000 2 2 0
+Laszlo Bathory 2000 4 2 0
+Demeter Somogyi 2000 3 2 0
+Barnabas Orban 2000 3 2 0
+Domonkos Fekete 2000 3 2 0
+Levente Kadar 2000 3 2 0
+Erzsi Prohaszka 2000 3 2 1
+Gergo Dunai 2000 3 2 0
+Dora Boros 2000 3 3 1
+Biborka Voros 2000 2 3 1
+Emil Csizmadia 2000 1 3 1
+Aron Gaal 2000 1 3 0
+Botond Jo 2000 1 3 0
+Henriett Csintalan 2000 2 3 1
+Rozsi Eros 2000 2 3 1
+Tamas Szarvas 2000 2 3 0
+Jozsi Buday 2000 2 3 0
+Krisztina Sovany 2000 3 3 1
+Ede Csonka 2000 3 3 0
+Pisti Bodnar 2000 3 3 0
+Kira Vastag 2000 3 3 1
+Adolf Ignacz 2000 4 3 0
+Romana Barta 2000 1 3 0
+Mercedesz Fabian 2000 3 1 1
+Erno Herczeg 2000 3 4 0
+Edvard Cinege 1999 3 4 0
+Melania Gereben 1999 4 4 1
+Moric Barany 1999 6 4 0
+Adrian Kelemen 1999 7 4 0
+Zsombor Agocs 1999 10 4 0
+Ede Kadar 1999 9 4 0
+Viktor Koszorus 1999 4 4 0
+Renata Szucs 1999 6 4 1
+Lucia Olah 1999 3 4 4 1
+Bozsi Gabor 1999 4 4 1
+Kajetan Orosz 1999 6 4 1
+Biborka Ruzsa 1999 7 4 1
+Evike Halmi 1999 8 5 1
+Lili Zentai 1999 7 5 1
+Benett Tisza 1999 9 5 1
+Sarolt Karpaty 1999 3 5 1
+Nimrod Szekely 1999 4 5 0
+Viola Katona 1999 4 5 1
+Robi Vadas 1999 7 5 0
+Fulop Vastag 1999 7 5 0
+Gyongyver Herczeg 1999 1 5 1
+Zente Pusztai 1999 2 5 1
+Jenci Sarkozi 1999 3 5 1
+Fabian Herczog 1999 1 5 0
+Andor Zsoldos 1999 2 5 0
+Roman Dunai 1999 2 3 5 0
