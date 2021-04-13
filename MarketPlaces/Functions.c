@@ -160,8 +160,8 @@ void printPosition(Marketplace *marketplace) {
 
 void addEmployee(Marketplace *marketplace)
 {
-
     marketplace->numOfEmployees++;
+
 
     marketplace->employees = (Employees *) realloc(marketplace->employees, marketplace->numOfEmployees);
 
@@ -179,11 +179,13 @@ void addEmployee(Marketplace *marketplace)
            "    SECRETARY = 2\n"
            "    SELLER = 3\n"
            "    LOADER = 4\n"
-           "    CLEANER = 5\n");
+           "    CLEANER = 5\n"
+           ": ");
     scanf("%i", &marketplace->employees[marketplace->numOfEmployees - 1].position);
     printf("Give me the new employee gender: \n"
            "    MALE = 0\n"
-           "    FEMALE = 1\n");
+           "    FEMALE = 1\n"
+           ": ");
     scanf("%i", &marketplace->employees[marketplace->numOfEmployees - 1].gender);
 
 }
@@ -194,7 +196,8 @@ int cmpfunc (const Employees * a, const Employees * b) {
 
 void qsortByAge(Marketplace* marketplace)
 {
-    qsort(marketplace->employees, marketplace->numOfEmployees, sizeof(Employees), cmpfunc);
+    qsort(marketplace->employees, marketplace->numOfEmployees, sizeof(Employees),
+          (int (*)(const void *, const void *)) cmpfunc);
 }
 
 int cmpfunc1 (const Employees * a, const Employees * b) {
@@ -203,7 +206,8 @@ int cmpfunc1 (const Employees * a, const Employees * b) {
 
 void qsortByYearOfExperince(Marketplace* marketplace)
 {
-    qsort(marketplace->employees, marketplace->numOfEmployees, sizeof(Employees), cmpfunc1);
+    qsort(marketplace->employees, marketplace->numOfEmployees, sizeof(Employees),
+          (int (*)(const void *, const void *)) cmpfunc1);
 }
 
 float avgYearOfBirth(Marketplace* marketplace)
@@ -215,4 +219,22 @@ float avgYearOfBirth(Marketplace* marketplace)
     }
 
     return sum/marketplace->numOfEmployees;
+}
+
+void menu()
+{
+    printf("---------------------------------------------\n");
+
+    printf("1:Print the market! \n"
+           "2:Print the male employees!\n"
+           "3:Print the number of female employees!\n"
+           "4:Print the position!\n"
+           "5:Add employee!\n"
+           "6:Print the most valuable employee!\n"
+           "7:Sort the employees by age!\n"
+           "8:Sort the employees by year of experience!\n"
+           "9:Return the average year of birth!\n"
+           "10: Exit\n");
+
+    printf("---------------------------------------------\n");
 }

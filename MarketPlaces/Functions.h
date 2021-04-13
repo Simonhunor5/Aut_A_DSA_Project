@@ -32,4 +32,6 @@ void qsortByYearOfExperince(Marketplace* marketplace);
 
 float avgYearOfBirth(Marketplace* marketplace);
 
+void menu();
+
 #endif //MARKETPLACES_FUNCTIONS_H

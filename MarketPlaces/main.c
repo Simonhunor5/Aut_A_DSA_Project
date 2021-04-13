@@ -7,20 +7,7 @@ int main() {
     Marketplace *marketplace = createMarket("Penny.txt");
 
 
-    printf("---------------------------------------------\n");
-
-    printf("\n1:Print the market! \n"
-           "2:Print the male employees!\n"
-           "3:Print the number of female employees!\n"
-           "4:Print the position!\n"
-           "5:Add employee!\n"
-           "6:Print the most valuable employee!\n"
-           "7:Sort the employees by age!\n"
-           "8:Sort the employees by year of experience!\n"
-           "9:Return the average year of birth!\n"
-           "10: Exit\n");
-
-    printf("---------------------------------------------\n");
+    menu();
 
 
 
@@ -53,7 +40,7 @@ int main() {
                 break;
             case 6:
                 tmp = mvpEmployees(marketplace);
-                printf("Most valuable employye is: %s %s", tmp.firstName, tmp.lastName);
+                printf("Most valuable employye is: %s %s\n", tmp.firstName, tmp.lastName);
                 break;
             case 7:
                 qsortByAge(marketplace);
@@ -62,7 +49,7 @@ int main() {
                 qsortByYearOfExperince(marketplace);
                 break;
             case 9:
-                printf("The average of year of birth is: %f", avgYearOfBirth(marketplace));
+                printf("The average of year of birth is: %f\n", avgYearOfBirth(marketplace));
                 break;
         }
 
