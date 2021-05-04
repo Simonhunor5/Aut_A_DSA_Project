@@ -163,7 +163,7 @@ void addEmployee(Marketplace *marketplace)
     marketplace->numOfEmployees++;
 
 
-    marketplace->employees = (Employees *) realloc(marketplace->employees, marketplace->numOfEmployees);
+    marketplace->employees = (Employees *) realloc(marketplace->employees, marketplace->numOfEmployees * sizeof(Employees));
 
     printf("Give me the new employee firstname: ");
     scanf("%s", marketplace->employees[marketplace->numOfEmployees - 1].firstName);

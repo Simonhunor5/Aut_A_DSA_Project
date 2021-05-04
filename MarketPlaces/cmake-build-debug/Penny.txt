@@ -88,7 +88,7 @@ Zsombor Agocs 1999 10 4 0
 Ede Kadar 1999 9 4 0
 Viktor Koszorus 1999 4 4 0
 Renata Szucs 1999 6 4 1
-Lucia Olah 1999 3 4 4 1
+Lucia Olah 1999 3 4 0
 Bozsi Gabor 1999 4 4 1
 Kajetan Orosz 1999 6 4 1
 Biborka Ruzsa 1999 7 4 1
