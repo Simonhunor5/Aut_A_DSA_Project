@@ -6,21 +6,27 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/MarketPlaces/Enums.h
+D:/DSA_lab/Aut_A_DSA_Project/MarketPlaces/Enums.h
 
-C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/MarketPlaces/Functions.c
+D:/DSA_lab/Aut_A_DSA_Project/MarketPlaces/Functions.c
 stdlib.h
 -
 stdio.h
 -
 Functions.h
-C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/MarketPlaces/Functions.h
+D:/DSA_lab/Aut_A_DSA_Project/MarketPlaces/Functions.h
 
-C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/MarketPlaces/Functions.h
+D:/DSA_lab/Aut_A_DSA_Project/MarketPlaces/Functions.h
 Enums.h
-C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/MarketPlaces/Enums.h
+D:/DSA_lab/Aut_A_DSA_Project/MarketPlaces/Enums.h
 Structs.h
-C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/MarketPlaces/Structs.h
+D:/DSA_lab/Aut_A_DSA_Project/MarketPlaces/Structs.h
 
-C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/MarketPlaces/Structs.h
+D:/DSA_lab/Aut_A_DSA_Project/MarketPlaces/Structs.h
+
+D:/DSA_lab/Aut_A_DSA_Project/MarketPlaces/main.c
+stdio.h
+-
+Functions.h
+D:/DSA_lab/Aut_A_DSA_Project/MarketPlaces/Functions.h
 

@@ -1,3 +1,3 @@
-"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Aut_A_DSA_Project.dir/objects.a
-C:\PROGRA~1\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\Aut_A_DSA_Project.dir/objects.a @CMakeFiles\Aut_A_DSA_Project.dir\objects1.rsp
-C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Aut_A_DSA_Project.dir/objects.a -Wl,--no-whole-archive  -o Aut_A_DSA_Project.exe -Wl,--out-implib,libAut_A_DSA_Project.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Aut_A_DSA_Project.dir\linklibs.rsp
+"D:\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Aut_A_DSA_Project.dir/objects.a
+C:\OJI\Codeblocks\MinGW\bin\ar.exe cr CMakeFiles\Aut_A_DSA_Project.dir/objects.a @CMakeFiles\Aut_A_DSA_Project.dir\objects1.rsp
+C:\OJI\Codeblocks\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Aut_A_DSA_Project.dir/objects.a -Wl,--no-whole-archive -o Aut_A_DSA_Project.exe -Wl,--out-implib,libAut_A_DSA_Project.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Aut_A_DSA_Project.dir\linklibs.rsp
