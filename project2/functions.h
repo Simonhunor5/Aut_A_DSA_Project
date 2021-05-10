@@ -7,38 +7,49 @@
 
 #include <string.h>
 #include <stdbool.h>
+#include "enums.h"
 
-typedef struct train {
-    char ID[7];
-    int passanger_count;
+typedef struct{
     int year;
     int month;
     int day;
     int hour;
     int minutes;
-} train;
+} Time;
 
-typedef struct root {
-    train *adat;
-    struct root *bal;
-    struct root *jobb;
-} root;
+typedef struct{
+    char* ID;
+    char* startLocation;
+    char* arriveLocation;
+    int numberOfPassangers;
+    int numberOfCarrige;
+    Time arriveTime;
+    Time startTime;
+    int travelTime;
+    enum TrainType type;
+    int weight;
+} Train;
 
-root *create_root(train *train1);
+typedef struct {
+    Train *data;
+    struct Root *left;
+    struct Root *right;
+} Root;
 
-void insert(root **fa, train *train1);
+Root *create_root(Train *train);
 
-void inorder(root *fa);
+void insert(Root **Tree, Train *train);
 
-train *create_train();
+void inorder(Root* tree);
 
-bool compare(int year1, int month1, int day1, int hour1, int minutes1,
-             int year2, int month2, int day2, int hour2, int minutes2);
+Train *create_train();
 
-int to_minutes(int year, int month, int day, int hour, int minutes);
+bool compare(Time time1, Time time2);
 
-train *max_value(root *fa);
+int to_minutes(Time time);
 
-void read_from_file(root* fa, char* file_name);
+Train *max_value(Root *tree);
+
+void read_from_file(Root* tree, char* file_name);
 
 #endif //PROJECT2_FUNCTIONS_H

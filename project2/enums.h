@@ -4,7 +4,11 @@
 
 #ifndef PROJECT2_ENUMS_H
 #define PROJECT2_ENUMS_H
-enum Type {
-    passenger_train = 0
+
+enum TrainType {
+    PASSANGER_TRAIN = 0,
+    FREIGHT_TRAIN = 1
 };
+
+
 #endif //PROJECT2_ENUMS_H
