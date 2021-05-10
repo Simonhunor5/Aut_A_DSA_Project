@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/project2/enums.c" "C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/project2/cmake-build-debug/CMakeFiles/project2.dir/enums.c.obj"
-  "C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/project2/functions.c" "C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/project2/cmake-build-debug/CMakeFiles/project2.dir/functions.c.obj"
-  "C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/project2/main.c" "C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/project2/cmake-build-debug/CMakeFiles/project2.dir/main.c.obj"
+  "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/project2/enums.c" "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/project2/cmake-build-debug/CMakeFiles/project2.dir/enums.c.obj"
+  "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/project2/functions.c" "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/project2/cmake-build-debug/CMakeFiles/project2.dir/functions.c.obj"
+  "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/project2/main.c" "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/project2/cmake-build-debug/CMakeFiles/project2.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

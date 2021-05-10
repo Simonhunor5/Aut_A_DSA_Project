@@ -18,19 +18,19 @@ typedef struct{
 } Time;
 
 typedef struct{
-    char* ID;
-    char* startLocation;
-    char* arriveLocation;
+    char ID[20];
+    char startLocation[20];
+    char arriveLocation[20];
     int numberOfPassangers;
     int numberOfCarrige;
-    Time arriveTime;
-    Time startTime;
+    Time *arriveTime;
+    Time *startTime;
     int travelTime;
     enum TrainType type;
     int weight;
 } Train;
 
-typedef struct {
+typedef struct Root{
     Train *data;
     struct Root *left;
     struct Root *right;
@@ -38,7 +38,7 @@ typedef struct {
 
 Root *create_root(Train *train);
 
-void insert(Root **Tree, Train *train);
+Root *insert(Root *tree, Train* train);
 
 void inorder(Root* tree);
 
@@ -46,11 +46,13 @@ Train *create_train();
 
 bool compare(Time time1, Time time2);
 
-int to_minutes(Time time);
+int to_minutes(Time* time);
 
 Train *max_value(Root *tree);
 
-void read_from_file(Root* tree, char* file_name);
+Root * read_from_file( char *file_name);
+
+Time *create_time();
 
 
 #endif //PROJECT2_FUNCTIONS_H
