@@ -43,9 +43,9 @@ int main() {
          }
 
      } while (x != 10);*/
-    root *fa = NULL;
+    Root *fa = NULL;
     read_from_file(fa, "trains.txt");
-    //inorder(fa);
+    inorder(fa);
 
     return 0;
 }

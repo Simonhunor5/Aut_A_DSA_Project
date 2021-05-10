@@ -4,9 +4,11 @@
 CMakeFiles/project2.dir/enums.c.obj: ../enums.c
 CMakeFiles/project2.dir/enums.c.obj: ../enums.h
 
+CMakeFiles/project2.dir/functions.c.obj: ../enums.h
 CMakeFiles/project2.dir/functions.c.obj: ../functions.c
 CMakeFiles/project2.dir/functions.c.obj: ../functions.h
 
+CMakeFiles/project2.dir/main.c.obj: ../enums.h
 CMakeFiles/project2.dir/main.c.obj: ../functions.h
 CMakeFiles/project2.dir/main.c.obj: ../main.c
 

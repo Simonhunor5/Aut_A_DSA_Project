@@ -52,4 +52,5 @@ Train *max_value(Root *tree);
 
 void read_from_file(Root* tree, char* file_name);
 
+
 #endif //PROJECT2_FUNCTIONS_H
