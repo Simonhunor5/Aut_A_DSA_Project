@@ -22,16 +22,13 @@ Root *create_root(Train *train1) {
     return branch;
 }
 
-Root *insert(Root *tree, Train* data) {
-    if(tree == NULL)
-    {
+Root *insert(Root *tree, Train *data) {
+    if (tree == NULL) {
         return create_root(data);
-    }
-    else
-    {
-        if(tree->data->travelTime > 60)
+    } else {
+        if (tree->data->type == PASSANGER_TRAIN)
             tree->left = insert(tree->left, data);
-        else tree->right =insert(tree->right, data);
+        else tree->right = insert(tree->right, data);
     }
     return tree;
 }
@@ -42,7 +39,7 @@ void inorder(Root *tree) {
 
     printf("ID: %s\n", tree->data->ID);
     printf("\tPassanger count: %i\n", tree->data->numberOfPassangers);
-    printf("\tTravel time: %i minutes \n",tree->data->travelTime);
+    printf("\tTravel time: %i minutes \n", tree->data->travelTime);
 
     if (tree->left)
         inorder(tree->left);
@@ -68,7 +65,7 @@ bool compare(Time time1, Time time2) {
         return false;
 
     } else {
-        if (time1.month> time2.month) {
+        if (time1.month > time2.month) {
             return true;
 
         } else if (time1.month < time2.month) {
@@ -145,19 +142,19 @@ int to_minutes(Time *time) {
 //    return tree->data;
 //}
 
-Root * read_from_file( char *file_name) {
+Root *read_from_file(char *file_name) {
     FILE *file = fopen(file_name, "rt");
     if (!file) {
         printf("Error!");
         exit(1);
     }
-    Root * root1 =NULL;
+    Root *root1 = NULL;
     int n;
     fscanf(file, "%i", &n);
-    Train * train = NULL;
+    Train *train = NULL;
 
-    Time* time = NULL;
-    Time* time1 = NULL;
+    Time *time = NULL;
+    Time *time1 = NULL;
     for (int i = 0; i < n; i++) {
         train = create_train();
         time = create_time();
@@ -180,17 +177,96 @@ Root * read_from_file( char *file_name) {
         fscanf(file, "%i", &time1->minutes);
         train->arriveTime = time1;
         fscanf(file, "%i", &train->type);
-        train->travelTime = to_minutes(train->arriveTime)-to_minutes(train->startTime);
-        if(train->type == 1)
-        {
+        train->travelTime = to_minutes(train->arriveTime) - to_minutes(train->startTime);
+        if (train->type == 1) {
             fscanf(file, "%i", &train->weight);
+        } else {
+            train->weight = 40000;
         }
-        root1 =  insert(root1,train);
+        root1 = insert(root1, train);
     }
     return root1;
 }
 
 Time *create_time() {
-    Time* time = (Time*)malloc(sizeof (Time));
+    Time *time = (Time *) malloc(sizeof(Time));
     return time;
+}
+
+void addTrain(Root *root1) {
+
+    Train *train = NULL;
+    Time *time = NULL;
+    Time *time1 = NULL;
+
+    train = create_train();
+    time = create_time();
+    time1 = create_time();
+
+    printf("Give me the train ID: ");
+    scanf("%s", train->ID);
+
+    printf("Give me the numberOfPassagers: ");
+    scanf("%i", &train->numberOfPassangers);
+
+    printf("Give me the numberOFCarrige: ");
+    scanf("%i", &train->numberOfCarrige);
+
+    printf("Give me the startLocation: ");
+    scanf("%s", train->startLocation);
+
+    printf("Give me the arriveLocation: ");
+    scanf("%s", train->arriveLocation);
+
+    printf("Give me the startTime (year month day hour minutes): ");
+    scanf("%i %i %i %i %i", &time->year, &time->month, &time->day, &time->hour, &time->minutes);
+    train->startTime = time;
+
+    printf("Give me the arriveTime (year month day hour minutes): ");
+    scanf("%i %i %i %i %i", &time1->year, &time1->month, &time1->day, &time1->hour, &time1->minutes);
+    train->arriveTime = time1;
+
+    printf("Give me a number (0 - personalTrain, 1 - freightTrain) :");
+    scanf("%i", &train->type);
+    train->travelTime = to_minutes(train->arriveTime) - to_minutes(train->startTime);
+
+    if (train->type == 1) {
+        printf("Give me the weight: ");
+        scanf("%i", &train->weight);
+    } else {
+        train->weight = 40000;
+    }
+
+    insert(root1, train);
+}
+
+void countTrainType(Root* root)
+{
+    int dbp=0, dbf=0, n;
+
+    if (root->right)
+    {
+        inorder(root->right);
+        dbf++;
+    }
+
+    if (root->left)
+    {
+        inorder(root->left);
+        dbp++;
+    }
+
+    if(root->left == NULL && root->right == NULL)
+    printf("Number of passagerTrain: %i\nNumber of freightTrain: %i",dbp,dbf);
+
+}
+
+void destroy(Root* root)
+{
+    if(root)
+    {
+        destroy(root->left);
+        destroy(root->right);
+        free(root);
+    }
 }

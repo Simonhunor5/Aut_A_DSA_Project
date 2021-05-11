@@ -54,5 +54,10 @@ Root * read_from_file( char *file_name);
 
 Time *create_time();
 
+void addTrain();
+
+void countTrainType(Root* root);
+
+void destroy(Root* root);
 
 #endif //PROJECT2_FUNCTIONS_H

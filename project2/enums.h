@@ -10,5 +10,4 @@ enum TrainType {
     FREIGHT_TRAIN = 1
 };
 
-
 #endif //PROJECT2_ENUMS_H

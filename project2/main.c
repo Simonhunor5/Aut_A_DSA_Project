@@ -47,5 +47,10 @@ int main() {
     fa = read_from_file("trains.txt");
     inorder(fa);
 
+    addTrain(fa);
+    inorder(fa);
+
+    destroy(fa);
+
     return 0;
 }
