@@ -242,26 +242,23 @@ void addTrain(Root *root1) {
 
 int countPassangerTrain(Root* root)
 {
-    int db=1;
+    if (!root) return 0;
 
-    if (root->left == NULL) {
-        return 0;
-    }else{
-        db += countPassangerTrain(root->left);
-        return db;
-    }
+    if (root->data->type == PASSANGER_TRAIN)
+        return 1 + countPassangerTrain(root->left);
+    else
+        return countPassangerTrain(root->right);
+
 }
 
 int countFreightTrain(Root* root)
 {
-    int db=1;
+    if (!root) return 0;
 
-    if (root->right == NULL) {
-        return 0;
-    }else{
-        db += countFreightTrain(root->right);
-        return db;
-    }
+    if (root->data->type == FREIGHT_TRAIN)
+        return 1 + countFreightTrain(root->right);
+    else
+        return countFreightTrain(root->left);
 }
 
 void destroy(Root* root)
