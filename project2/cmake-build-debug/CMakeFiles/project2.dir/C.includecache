@@ -8,6 +8,14 @@
 
 D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/project2/enums.h
 
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/project2/functions.c
+functions.h
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/project2/functions.h
+stdlib.h
+-
+stdio.h
+-
+
 D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/project2/functions.h
 string.h
 -
@@ -15,10 +23,4 @@ stdbool.h
 -
 enums.h
 D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/project2/enums.h
-
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/project2/main.c
-stdio.h
--
-functions.h
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/project2/functions.h
 

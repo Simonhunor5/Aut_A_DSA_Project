@@ -56,7 +56,9 @@ Time *create_time();
 
 void addTrain();
 
-void countTrainType(Root* root);
+int countPassangerTrain(Root* root);
+
+int countFreightTrain(Root* root);
 
 void destroy(Root* root);
 

@@ -240,25 +240,28 @@ void addTrain(Root *root1) {
     insert(root1, train);
 }
 
-void countTrainType(Root* root)
+int countPassangerTrain(Root* root)
 {
-    int dbp=0, dbf=0, n;
+    int db=1;
 
-    if (root->right)
-    {
-        inorder(root->right);
-        dbf++;
+    if (root->left == NULL) {
+        return 0;
+    }else{
+        db += countPassangerTrain(root->left);
+        return db;
     }
+}
 
-    if (root->left)
-    {
-        inorder(root->left);
-        dbp++;
+int countFreightTrain(Root* root)
+{
+    int db=1;
+
+    if (root->right == NULL) {
+        return 0;
+    }else{
+        db += countFreightTrain(root->right);
+        return db;
     }
-
-    if(root->left == NULL && root->right == NULL)
-    printf("Number of passagerTrain: %i\nNumber of freightTrain: %i",dbp,dbf);
-
 }
 
 void destroy(Root* root)

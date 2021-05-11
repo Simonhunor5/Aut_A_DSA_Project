@@ -47,8 +47,14 @@ int main() {
     fa = read_from_file("trains.txt");
     inorder(fa);
 
-    addTrain(fa);
-    inorder(fa);
+//    addTrain(fa);
+//    inorder(fa);
+
+    int dbp = countPassangerTrain(fa);
+    printf("\n\nPassanger db: %i",dbp);
+
+    int dpf = countFreightTrain(fa);
+    printf("\nFreight: %i",dpf);
 
     destroy(fa);
 
