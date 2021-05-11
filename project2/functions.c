@@ -56,48 +56,6 @@ Train *create_train() {
     return train;
 }
 
-bool compare(Time time1, Time time2) {
-
-    if (time1.year > time2.year) {
-        return true;
-
-    } else if (time1.year < time2.year) {
-        return false;
-
-    } else {
-        if (time1.month > time2.month) {
-            return true;
-
-        } else if (time1.month < time2.month) {
-            return false;
-
-        } else {
-            if (time1.day > time2.day) {
-                return true;
-
-            } else if (time1.day < time2.day) {
-                return false;
-
-            } else {
-                if (time1.hour > time2.hour) {
-                    return true;
-
-                } else if (time1.hour < time2.hour) {
-                    return false;
-
-                } else {
-                    if (time1.minutes > time2.minutes) {
-                        return true;
-
-                    } else {
-                        return false;
-
-                    }
-                }
-            }
-        }
-    }
-}
 
 int to_minutes(Time *time) {
     int sum = 0;
@@ -134,13 +92,6 @@ int to_minutes(Time *time) {
 
     return sum;
 }
-
-//Train *max_value(Root *tree) {
-//    if (tree->right)
-//        return max_value(tree->right);
-//
-//    return tree->data;
-//}
 
 Root *read_from_file(char *file_name) {
     FILE *file = fopen(file_name, "rt");
@@ -269,4 +220,50 @@ void destroy(Root* root)
         destroy(root->right);
         free(root);
     }
+}
+
+void menu(Root* root)
+{
+    printf("=======> Trains <=======\n");
+    printf("        -> MENU <-        \n\n");
+
+    printf("1: Inorder\n"
+           "2: Read from file\n"
+           "3: Count Passager Train\n"
+           "4: Count Freight Train\n"
+           "5: Add train\n"
+           "6: Destoy\n"
+           "7: Break\n");
+
+    int x, dbp, dbf;
+
+    do {
+        printf("What do you want to do? :");
+
+        scanf("%i",&x);
+
+
+        switch (x) {
+
+            case 1:
+                inorder(root);
+                break;
+            case 2:
+                root = read_from_file("trains.txt");
+                break;
+            case 3:
+                dbp = countPassangerTrain(root);
+                printf("\n\nPassanger db: %i",dbp);
+                break;
+            case 4: dbf = countFreightTrain(root);
+                printf("\nFreight: %i",dbf);
+                break;
+            case 5:
+                addTrain(root);
+                break;
+            case 6:
+                destroy(root);
+                break;
+        }
+    } while (x != 7);
 }

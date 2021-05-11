@@ -44,11 +44,7 @@ void inorder(Root* tree);
 
 Train *create_train();
 
-bool compare(Time time1, Time time2);
-
 int to_minutes(Time* time);
-
-Train *max_value(Root *tree);
 
 Root * read_from_file( char *file_name);
 
@@ -61,5 +57,7 @@ int countPassangerTrain(Root* root);
 int countFreightTrain(Root* root);
 
 void destroy(Root* root);
+
+void menu(Root* root);
 
 #endif //PROJECT2_FUNCTIONS_H
