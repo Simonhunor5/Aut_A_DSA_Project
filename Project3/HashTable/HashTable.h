@@ -4,19 +4,24 @@
 
 #ifndef PROJECT3_HASHTABLE_H
 #define PROJECT3_HASHTABLE_H
+
+#include "../Book/Book.h"
+
 typedef struct {
-    char *key;
-    int value;
-};
+    int key;
+    Book* value;
+}HashTable;
 
-int *create(int m);
+HashTable *create(int m);
 
-int keres(int k, int *t, int m);
-//az k elem pozícióját adja vissza az m elemű t tömbben
+void toUpper(char *title);
 
-void beszur(int k, int *t, int m);
-// k kulcsú elemet beszúr a t tömbbe, melynek m eleme van
+int stringToInt(char *title);
 
-void torol(int k, int *t, int m);
-//a k kitörlése a t tömbből, melynek m eleme van
-#endif //PROJECT3_HASHTABLE_H
+int search(char *title, HashTable *t, int m);
+
+void insert(char *title,HashTable *T, int m);
+
+void delete(char *title, HashTable *t, int m);
+
+#endif

@@ -3,6 +3,7 @@
 
 CMakeFiles/Project3.dir/Array/Array.c.obj: ../Array/Array.c
 CMakeFiles/Project3.dir/Array/Array.c.obj: ../Array/Array.h
+CMakeFiles/Project3.dir/Array/Array.c.obj: ../Book/Book.h
 
 CMakeFiles/Project3.dir/BinarySearchTree/BinarySearchTree.c.obj: ../BinarySearchTree/BinarySearchTree.c
 CMakeFiles/Project3.dir/BinarySearchTree/BinarySearchTree.c.obj: ../BinarySearchTree/BinarySearchTree.h
@@ -10,9 +11,11 @@ CMakeFiles/Project3.dir/BinarySearchTree/BinarySearchTree.c.obj: ../BinarySearch
 CMakeFiles/Project3.dir/Book/Book.c.obj: ../Book/Book.c
 CMakeFiles/Project3.dir/Book/Book.c.obj: ../Book/Book.h
 
+CMakeFiles/Project3.dir/DynamicList/DynamicList.c.obj: ../Book/Book.h
 CMakeFiles/Project3.dir/DynamicList/DynamicList.c.obj: ../DynamicList/DynamicList.c
 CMakeFiles/Project3.dir/DynamicList/DynamicList.c.obj: ../DynamicList/DynamicList.h
 
+CMakeFiles/Project3.dir/HashTable/HashTable.c.obj: ../Book/Book.h
 CMakeFiles/Project3.dir/HashTable/HashTable.c.obj: ../HashTable/HashTable.c
 CMakeFiles/Project3.dir/HashTable/HashTable.c.obj: ../HashTable/HashTable.h
 
