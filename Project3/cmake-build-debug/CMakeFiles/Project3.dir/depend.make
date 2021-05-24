@@ -15,6 +15,7 @@ CMakeFiles/Project3.dir/DynamicList/DynamicList.c.obj: ../Book/Book.h
 CMakeFiles/Project3.dir/DynamicList/DynamicList.c.obj: ../DynamicList/DynamicList.c
 CMakeFiles/Project3.dir/DynamicList/DynamicList.c.obj: ../DynamicList/DynamicList.h
 
+CMakeFiles/Project3.dir/HashTable/HashTable.c.obj: ../Book/Book.h
 CMakeFiles/Project3.dir/HashTable/HashTable.c.obj: ../HashTable/HashTable.c
 CMakeFiles/Project3.dir/HashTable/HashTable.c.obj: ../HashTable/HashTable.h
 

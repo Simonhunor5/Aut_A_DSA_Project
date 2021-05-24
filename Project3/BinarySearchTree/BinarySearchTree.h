@@ -19,8 +19,4 @@ void insert(Root **tree, char *a, char *t);
 
 void inorder(Root *tree);
 
-void preorder(Root *tree);
-
-void postorder(Root *tree);
-
 #endif //PROJECT3_BINARYSEARCHTREE_H

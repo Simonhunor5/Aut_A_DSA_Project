@@ -13,6 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2168cd09-8c6a-49a7-897d-6638c39cbb01" name="Default Changelist" comment="javítás">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/BinarySearchTree/BinarySearchTree.c" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/BinarySearchTree.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BinarySearchTree/BinarySearchTree.h" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/BinarySearchTree.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Heap/Heap.c" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/Heap.c" afterDir="false" />
@@ -27,6 +28,21 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project3.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project3.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/HashTable/HashTable.c" beforeDir="false" afterPath="$PROJECT_DIR$/HashTable/HashTable.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HashTable/HashTable.h" beforeDir="false" afterPath="$PROJECT_DIR$/HashTable/HashTable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project3.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project3.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project3.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project3.dir/depend.internal" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Heap/Heap.c" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/Heap.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/Heap.h" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/Heap.h" afterDir="false" />
+>>>>>>> 4d085a8e8d6aff5c3993e36ed2a9012e0e41d23c
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project3.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project3.dir/depend.make" afterDir="false" />
+>>>>>>> origin/main
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621795558515</updated>
       <workItem from="1621795560988" duration="2801000" />
-      <workItem from="1621873441373" duration="4739000" />
+      <workItem from="1621873441373" duration="9883000" />
     </task>
     <task id="LOCAL-00001" summary="javítás">
       <created>1621882902547</created>

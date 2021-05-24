@@ -35,28 +35,17 @@ void insert(Root **fa, char *a, char *t) {
     }
 }
 
-void inorder(Root *fa) {
-    if (fa->left)
-        inorder(fa->left);
+void inorder(Root *fa, char *t) {
+    if (fa->->left)
+        inorder(fa->left, t);
 
-    printf("%3d ", fa->data);
+    if (strcmp(fa->data->title, t) == 1) {
+        printf("Talalt");
+    }else
+    {
+        printf("Nincs");
+    }
 
     if (fa->right)
-        inorder(fa->right);
-}
-
-void preorder(Root *fa) {
-    printf("%3d ", fa->data);
-    if (fa->left)
-        preorder(fa->left);
-    if (fa->right)
-        preorder(fa->right);
-}
-
-void postorder(Root *fa) {
-    if (fa->left)
-        postorder(fa->left);
-    if (fa->right)
-        postorder(fa->right);
-    printf("%3d ", fa->data);
+        inorder(fa->right, t);
 }

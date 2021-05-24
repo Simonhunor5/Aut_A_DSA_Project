@@ -61,7 +61,7 @@ Heap *readFromFile(char *fileName) {
         fscanf(fin, "%s", title);
         fscanf(fin, "%s", author);
 
-        insert(heap, createBook(title,author));
+        insert(heap, createBook(title, author));
     }
 
     fclose(fin);
