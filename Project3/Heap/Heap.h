@@ -4,22 +4,19 @@
 
 #ifndef PROJECT3_HEAP_H
 #define PROJECT3_HEAP_H
-typedef struct{
-    
-} euro;
-typedef struct{
-    
-} Heap;
+
+#include "../Book/Book.h"
+
+typedef struct {
+    int maxSize;
+    int size;
+    Book* data;
+}Heap;
+
 Heap *createHeap(int max);
-
-void insert(Heap *h, int year, int month, int price);
-
-void up(Heap *h, int i);
-
-void down(Heap *h, int i);
-
-void kupacrendez(Heap *h, int N);
-
-int torolmax(Heap *h);
+Heap* readFromFile(char* fileName);
+void insert(Heap *h, Book* book);
+void up(Heap* h, int i);
+int findElement(Heap* heap, char* title);
 
 #endif //PROJECT3_HEAP_H

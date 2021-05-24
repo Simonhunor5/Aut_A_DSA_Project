@@ -5,36 +5,44 @@
 #include "Heap.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <vss.h>
+#include <string.h>
+#include "../Book/Book.h"
 
 Heap *createHeap(int max) {
-    Heap* h = (Heap*)malloc(sizeof(Heap));
+    Heap *h = (Heap *) malloc(sizeof(Heap));
+
+    if(!h)
+    {
+        printf("Error!");
+        return NULL;
+    }
+
     h->size = 0;
     h->maxSize = max;
-    h->data = (int*)malloc(max * sizeof(int));
+    h->data = (Book *) malloc(h->maxSize * sizeof(Book));
+
+    if(!h->data)
+    {
+        printf("Error!");
+        return NULL;
+    }
+
     return h;
 }
-void insert(heap* h, int year, int month, int price) {
+
+void insert(Heap *h, Book *book) {
     h->size++;
-    h->data[h->euro1->year] = year;
-    h->data[h->euro1->month] = month;
-    h->data[h->euro1->price] = price;
+    strcpy(h->data[h->size].author, book->author);
+    strcpy(h->data[h->size].title, book->title);
+
     up(h, h->size);
 }
-void up(heap* h, int i) {
-    int seged;
-    while ((i > 1) && (h->data[i/2]->euro1->price < h->data[i].price)) {
-        seged = h->data[i/2].year;
-        h->data[i/2] = h->data[i].year;
-        h->data[i].month = seged;
-        i /= 2;
-    }
-}
 
+Heap *readFromFile(char *fileName) {
+    FILE *fin = fopen(fileName, "rt");
 
-Heap* readFromFile(char* fileName) {
-    FILE* fin = fopen(fileName, "rt");
-
-    if(!fin) {
+    if (!fin) {
         printf("Failed to open file %s.", fileName);
         return NULL;
     }
@@ -42,32 +50,43 @@ Heap* readFromFile(char* fileName) {
     int n;
     fscanf(fin, "%i", &n);
 
-    Heap* heap = createHeap(n);
+    Heap *heap = createHeap(n);
 
-    if(!heap) {
+    if (!heap) {
         return NULL;
     }
 
-    for(int i = 0; i < n; i++) {
-        int year, month;
+    char* title, author;
 
-        fscanf(fin, "%i", &year);
-        fscanf(fin, "%i", &month);
+    for (int i = 0; i < heap->maxSize; i++) {
 
-        int exchangeRate;
-        fscanf(fin, "%i", &exchangeRate);
+        fscanf(fin, "%s", title);
+        fscanf(fin, "%s", author);
 
-        int penny = exchangeRate % 100;
-        exchangeRate /= 100;
-        int forint = exchangeRate;
-
-        Exchange* tmp = createExchange(year, month, forint, penny);
-
-        insert(heap, tmp);
+        insert(heap, createBook(title,author));
     }
 
     fclose(fin);
     fin = NULL;
 
     return heap;
+}
+
+void up(Heap *h, int i) {
+    char* seged;
+
+    while ((i > 1) && strcmp(h->data[i / 2].title, h->data[i].title) > 0) {
+        strcpy(seged, h->data[i / 2].author);
+        strcpy(h->data[i / 2].author, h->data[i].author);
+        strcpy(h->data[i].author, seged);
+        i /= 2;
+    }
+}
+
+int findElement(Heap* heap, char* title)
+{
+    for (int i = 0; i < heap->size; ++i) {
+        if(heap->data[i].title == title)
+            return i;
+    }
 }
