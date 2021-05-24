@@ -66,10 +66,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3"
+CMAKE_SOURCE_DIR = C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\cmake-build-debug\CMakeFiles" "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\cmake-build-debug\CMakeFiles C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -194,6 +194,33 @@ BinarySearchTree/BinarySearchTree.s: BinarySearchTree/BinarySearchTree.c.s
 BinarySearchTree/BinarySearchTree.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project3.dir\build.make CMakeFiles/Project3.dir/BinarySearchTree/BinarySearchTree.c.s
 .PHONY : BinarySearchTree/BinarySearchTree.c.s
+
+Book/Book.obj: Book/Book.c.obj
+
+.PHONY : Book/Book.obj
+
+# target to build an object file
+Book/Book.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project3.dir\build.make CMakeFiles/Project3.dir/Book/Book.c.obj
+.PHONY : Book/Book.c.obj
+
+Book/Book.i: Book/Book.c.i
+
+.PHONY : Book/Book.i
+
+# target to preprocess a source file
+Book/Book.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project3.dir\build.make CMakeFiles/Project3.dir/Book/Book.c.i
+.PHONY : Book/Book.c.i
+
+Book/Book.s: Book/Book.c.s
+
+.PHONY : Book/Book.s
+
+# target to generate assembly for a file
+Book/Book.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project3.dir\build.make CMakeFiles/Project3.dir/Book/Book.c.s
+.PHONY : Book/Book.c.s
 
 DynamicList/DynamicList.obj: DynamicList/DynamicList.c.obj
 
@@ -318,6 +345,9 @@ help:
 	@echo ... BinarySearchTree/BinarySearchTree.obj
 	@echo ... BinarySearchTree/BinarySearchTree.i
 	@echo ... BinarySearchTree/BinarySearchTree.s
+	@echo ... Book/Book.obj
+	@echo ... Book/Book.i
+	@echo ... Book/Book.s
 	@echo ... DynamicList/DynamicList.obj
 	@echo ... DynamicList/DynamicList.i
 	@echo ... DynamicList/DynamicList.s
