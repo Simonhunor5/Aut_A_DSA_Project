@@ -19,6 +19,7 @@ CMakeFiles/Project3.dir/HashTable/HashTable.c.obj: ../Book/Book.h
 CMakeFiles/Project3.dir/HashTable/HashTable.c.obj: ../HashTable/HashTable.c
 CMakeFiles/Project3.dir/HashTable/HashTable.c.obj: ../HashTable/HashTable.h
 
+CMakeFiles/Project3.dir/Heap/Heap.c.obj: ../Book/Book.h
 CMakeFiles/Project3.dir/Heap/Heap.c.obj: ../Heap/Heap.c
 CMakeFiles/Project3.dir/Heap/Heap.c.obj: ../Heap/Heap.h
 

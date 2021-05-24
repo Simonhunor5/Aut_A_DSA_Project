@@ -11,8 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2168cd09-8c6a-49a7-897d-6638c39cbb01" name="Default Changelist" comment="">
+    <list default="true" id="2168cd09-8c6a-49a7-897d-6638c39cbb01" name="Default Changelist" comment="*">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/HashTable/HashTable.c" beforeDir="false" afterPath="$PROJECT_DIR$/HashTable/HashTable.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HashTable/HashTable.h" beforeDir="false" afterPath="$PROJECT_DIR$/HashTable/HashTable.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
@@ -20,6 +21,10 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/7" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project3.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project3.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project3.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project3.dir/depend.internal" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Heap/Heap.c" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/Heap.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/Heap.h" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/Heap.h" afterDir="false" />
+>>>>>>> 4d085a8e8d6aff5c3993e36ed2a9012e0e41d23c
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project3.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project3.dir/depend.make" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,12 +73,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Project3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project3" TARGET_NAME="Project3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project3" RUN_TARGET_NAME="Project3">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="Project3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project3" TARGET_NAME="Project3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project3" RUN_TARGET_NAME="Project3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -111,5 +116,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="*" />
+    <option name="LAST_COMMIT_MESSAGE" value="*" />
   </component>
 </project>

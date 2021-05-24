@@ -61,10 +61,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3
+CMAKE_SOURCE_DIR = "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\cmake-build-debug
+CMAKE_BINARY_DIR = "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Project3.dir/depend.make
@@ -77,94 +77,94 @@ include CMakeFiles/Project3.dir/flags.make
 
 CMakeFiles/Project3.dir/main.c.obj: CMakeFiles/Project3.dir/flags.make
 CMakeFiles/Project3.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Project3.dir/main.c.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Project3.dir\main.c.obj -c C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Project3.dir/main.c.obj"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Project3.dir\main.c.obj -c "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\main.c"
 
 CMakeFiles/Project3.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project3.dir/main.c.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\main.c > CMakeFiles\Project3.dir\main.c.i
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\main.c" > CMakeFiles\Project3.dir\main.c.i
 
 CMakeFiles/Project3.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project3.dir/main.c.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\main.c -o CMakeFiles\Project3.dir\main.c.s
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\main.c" -o CMakeFiles\Project3.dir\main.c.s
 
 CMakeFiles/Project3.dir/Array/Array.c.obj: CMakeFiles/Project3.dir/flags.make
 CMakeFiles/Project3.dir/Array/Array.c.obj: ../Array/Array.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Project3.dir/Array/Array.c.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Project3.dir\Array\Array.c.obj -c C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\Array\Array.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Project3.dir/Array/Array.c.obj"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Project3.dir\Array\Array.c.obj -c "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\Array\Array.c"
 
 CMakeFiles/Project3.dir/Array/Array.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project3.dir/Array/Array.c.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\Array\Array.c > CMakeFiles\Project3.dir\Array\Array.c.i
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\Array\Array.c" > CMakeFiles\Project3.dir\Array\Array.c.i
 
 CMakeFiles/Project3.dir/Array/Array.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project3.dir/Array/Array.c.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\Array\Array.c -o CMakeFiles\Project3.dir\Array\Array.c.s
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\Array\Array.c" -o CMakeFiles\Project3.dir\Array\Array.c.s
 
 CMakeFiles/Project3.dir/BinarySearchTree/BinarySearchTree.c.obj: CMakeFiles/Project3.dir/flags.make
 CMakeFiles/Project3.dir/BinarySearchTree/BinarySearchTree.c.obj: ../BinarySearchTree/BinarySearchTree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Project3.dir/BinarySearchTree/BinarySearchTree.c.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Project3.dir\BinarySearchTree\BinarySearchTree.c.obj -c C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\BinarySearchTree\BinarySearchTree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Project3.dir/BinarySearchTree/BinarySearchTree.c.obj"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Project3.dir\BinarySearchTree\BinarySearchTree.c.obj -c "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\BinarySearchTree\BinarySearchTree.c"
 
 CMakeFiles/Project3.dir/BinarySearchTree/BinarySearchTree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project3.dir/BinarySearchTree/BinarySearchTree.c.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\BinarySearchTree\BinarySearchTree.c > CMakeFiles\Project3.dir\BinarySearchTree\BinarySearchTree.c.i
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\BinarySearchTree\BinarySearchTree.c" > CMakeFiles\Project3.dir\BinarySearchTree\BinarySearchTree.c.i
 
 CMakeFiles/Project3.dir/BinarySearchTree/BinarySearchTree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project3.dir/BinarySearchTree/BinarySearchTree.c.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\BinarySearchTree\BinarySearchTree.c -o CMakeFiles\Project3.dir\BinarySearchTree\BinarySearchTree.c.s
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\BinarySearchTree\BinarySearchTree.c" -o CMakeFiles\Project3.dir\BinarySearchTree\BinarySearchTree.c.s
 
 CMakeFiles/Project3.dir/DynamicList/DynamicList.c.obj: CMakeFiles/Project3.dir/flags.make
 CMakeFiles/Project3.dir/DynamicList/DynamicList.c.obj: ../DynamicList/DynamicList.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Project3.dir/DynamicList/DynamicList.c.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Project3.dir\DynamicList\DynamicList.c.obj -c C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\DynamicList\DynamicList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Project3.dir/DynamicList/DynamicList.c.obj"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Project3.dir\DynamicList\DynamicList.c.obj -c "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\DynamicList\DynamicList.c"
 
 CMakeFiles/Project3.dir/DynamicList/DynamicList.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project3.dir/DynamicList/DynamicList.c.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\DynamicList\DynamicList.c > CMakeFiles\Project3.dir\DynamicList\DynamicList.c.i
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\DynamicList\DynamicList.c" > CMakeFiles\Project3.dir\DynamicList\DynamicList.c.i
 
 CMakeFiles/Project3.dir/DynamicList/DynamicList.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project3.dir/DynamicList/DynamicList.c.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\DynamicList\DynamicList.c -o CMakeFiles\Project3.dir\DynamicList\DynamicList.c.s
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\DynamicList\DynamicList.c" -o CMakeFiles\Project3.dir\DynamicList\DynamicList.c.s
 
 CMakeFiles/Project3.dir/HashTable/HashTable.c.obj: CMakeFiles/Project3.dir/flags.make
 CMakeFiles/Project3.dir/HashTable/HashTable.c.obj: ../HashTable/HashTable.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Project3.dir/HashTable/HashTable.c.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Project3.dir\HashTable\HashTable.c.obj -c C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\HashTable\HashTable.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Project3.dir/HashTable/HashTable.c.obj"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Project3.dir\HashTable\HashTable.c.obj -c "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\HashTable\HashTable.c"
 
 CMakeFiles/Project3.dir/HashTable/HashTable.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project3.dir/HashTable/HashTable.c.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\HashTable\HashTable.c > CMakeFiles\Project3.dir\HashTable\HashTable.c.i
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\HashTable\HashTable.c" > CMakeFiles\Project3.dir\HashTable\HashTable.c.i
 
 CMakeFiles/Project3.dir/HashTable/HashTable.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project3.dir/HashTable/HashTable.c.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\HashTable\HashTable.c -o CMakeFiles\Project3.dir\HashTable\HashTable.c.s
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\HashTable\HashTable.c" -o CMakeFiles\Project3.dir\HashTable\HashTable.c.s
 
 CMakeFiles/Project3.dir/Heap/Heap.c.obj: CMakeFiles/Project3.dir/flags.make
 CMakeFiles/Project3.dir/Heap/Heap.c.obj: ../Heap/Heap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Project3.dir/Heap/Heap.c.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Project3.dir\Heap\Heap.c.obj -c C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\Heap\Heap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Project3.dir/Heap/Heap.c.obj"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Project3.dir\Heap\Heap.c.obj -c "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\Heap\Heap.c"
 
 CMakeFiles/Project3.dir/Heap/Heap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project3.dir/Heap/Heap.c.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\Heap\Heap.c > CMakeFiles\Project3.dir\Heap\Heap.c.i
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\Heap\Heap.c" > CMakeFiles\Project3.dir\Heap\Heap.c.i
 
 CMakeFiles/Project3.dir/Heap/Heap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project3.dir/Heap/Heap.c.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\Heap\Heap.c -o CMakeFiles\Project3.dir\Heap\Heap.c.s
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\Heap\Heap.c" -o CMakeFiles\Project3.dir\Heap\Heap.c.s
 
 CMakeFiles/Project3.dir/Book/Book.c.obj: CMakeFiles/Project3.dir/flags.make
 CMakeFiles/Project3.dir/Book/Book.c.obj: ../Book/Book.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Project3.dir/Book/Book.c.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Project3.dir\Book\Book.c.obj -c C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\Book\Book.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Project3.dir/Book/Book.c.obj"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Project3.dir\Book\Book.c.obj -c "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\Book\Book.c"
 
 CMakeFiles/Project3.dir/Book/Book.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project3.dir/Book/Book.c.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\Book\Book.c > CMakeFiles\Project3.dir\Book\Book.c.i
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\Book\Book.c" > CMakeFiles\Project3.dir\Book\Book.c.i
 
 CMakeFiles/Project3.dir/Book/Book.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project3.dir/Book/Book.c.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\Book\Book.c -o CMakeFiles\Project3.dir\Book\Book.c.s
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\Book\Book.c" -o CMakeFiles\Project3.dir\Book\Book.c.s
 
 # Object files for target Project3
 Project3_OBJECTS = \
@@ -190,7 +190,7 @@ Project3.exe: CMakeFiles/Project3.dir/build.make
 Project3.exe: CMakeFiles/Project3.dir/linklibs.rsp
 Project3.exe: CMakeFiles/Project3.dir/objects1.rsp
 Project3.exe: CMakeFiles/Project3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable Project3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable Project3.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Project3.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -203,6 +203,6 @@ CMakeFiles/Project3.dir/clean:
 .PHONY : CMakeFiles/Project3.dir/clean
 
 CMakeFiles/Project3.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3 C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3 C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\cmake-build-debug C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\cmake-build-debug C:\Users\simon\Documents\DSA_Project\Aut_A_DSA_Project\Project3\cmake-build-debug\CMakeFiles\Project3.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3" "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3" "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\cmake-build-debug" "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\cmake-build-debug" "D:\Info\I ev\II felev\Adat Alg\Labor\Aut_A_DSA_Project\Project3\cmake-build-debug\CMakeFiles\Project3.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Project3.dir/depend
 
