@@ -6,102 +6,17 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< HEAD
-C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/Book/Book.h
-
-C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/HashTable/HashTable.c
-=======
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Array/Array.c
+C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/Array/Array.c
 stdio.h
 -
 stdlib.h
 -
 Array.h
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Array/Array.h
+C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/Array/Array.h
 
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Array/Array.h
-../Book/Book.h
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Book/Book.h
-
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/BinarySearchTree/BinarySearchTree.c
-stdio.h
--
-stdlib.h
--
-BinarySearchTree.h
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/BinarySearchTree/BinarySearchTree.h
-
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/BinarySearchTree/BinarySearchTree.h
-
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Book/Book.c
-Book.h
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Book/Book.h
-stdlib.h
--
-stdio.h
--
-string.h
--
-
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Book/Book.h
-
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/DynamicList/DynamicList.c
->>>>>>> 4d085a8e8d6aff5c3993e36ed2a9012e0e41d23c
-stdio.h
--
-stdlib.h
--
-<<<<<<< HEAD
-HashTable.h
-C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/HashTable/HashTable.h
-string.h
-C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/HashTable/string.h
-
-C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/HashTable/HashTable.h
+C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/Array/Array.h
 ../Book/Book.h
 C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/Book/Book.h
-=======
-DynamicList.h
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/DynamicList/DynamicList.h
-string.h
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/DynamicList/string.h
 
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/DynamicList/DynamicList.h
-../Book/Book.h
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Book/Book.h
-
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/HashTable/HashTable.c
-stdio.h
--
-stdlib.h
--
-HashTable.h
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/HashTable/HashTable.h
-
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/HashTable/HashTable.h
-
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Heap/Heap.c
-Heap.h
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Heap/Heap.h
-stdio.h
--
-stdlib.h
--
-vss.h
--
-string.h
--
-../Book/Book.h
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Book/Book.h
-
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Heap/Heap.h
-../Book/Book.h
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Book/Book.h
-
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/main.c
-stdio.h
--
-Book/Book.h
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Book/Book.h
->>>>>>> 4d085a8e8d6aff5c3993e36ed2a9012e0e41d23c
+C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/Book/Book.h
 

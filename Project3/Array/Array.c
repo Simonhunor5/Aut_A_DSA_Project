@@ -19,7 +19,7 @@ IntArray *createArray(int dimension) {
     }
 
     array->size = dimension;
-    array->elements = (int *) malloc(dimension * sizeof(int));
+    array->elements = (Book *) malloc(dimension * sizeof(Book));
 
     if (!array->elements) {
         printf("Hiba2");
@@ -30,7 +30,7 @@ IntArray *createArray(int dimension) {
     return array;
 }
 
-Book* findElement(IntArray *array, Book* element) {
+int findElement(IntArray *array, Book* element) {
     for (int i = 0; i < array->size; i++)
         if (array->elements[i].author == element->author && array->elements[i].title == element->title)
             return i;

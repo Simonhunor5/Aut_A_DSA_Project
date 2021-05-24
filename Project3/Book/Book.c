@@ -10,7 +10,7 @@
 
 Book* createBook(char* title, char* author)
 {
-    Book* book = (Book*)malloc(sizeof(book));
+    Book* book = (Book*)malloc(sizeof(Book));
 
     if(!book)
     {

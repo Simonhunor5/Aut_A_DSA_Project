@@ -14,7 +14,7 @@ typedef struct {
 
 IntArray *createArray(int dimension);
 
-Book* findElement(IntArray *array, Book* element);
+int findElement(IntArray *array, Book* element);
 
 void readArray(const char *fileName, IntArray **array);
 

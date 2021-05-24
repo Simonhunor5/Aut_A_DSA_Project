@@ -5,7 +5,6 @@
 #include "Heap.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <vss.h>
 #include <string.h>
 #include "../Book/Book.h"
 
@@ -63,7 +62,7 @@ Heap *readFromFile(char *fileName) {
         fscanf(fin, "%s", title);
         fscanf(fin, "%s", author);
 
-        insert(heap, createBook(title,author));
+        insert(heap, createBook(title, author));
     }
 
     fclose(fin);

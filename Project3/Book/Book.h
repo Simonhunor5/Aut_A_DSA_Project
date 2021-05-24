@@ -11,7 +11,7 @@ typedef struct {
 }Book;
 
 
-Book* createBook(char* title, char* author );
+Book* createBook(char* title, char* author);
 
 void printBook(Book* book);
 

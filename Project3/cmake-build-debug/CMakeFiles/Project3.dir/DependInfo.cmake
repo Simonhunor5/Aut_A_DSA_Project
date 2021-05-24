@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Array/Array.c" "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/cmake-build-debug/CMakeFiles/Project3.dir/Array/Array.c.obj"
-  "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/BinarySearchTree/BinarySearchTree.c" "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/cmake-build-debug/CMakeFiles/Project3.dir/BinarySearchTree/BinarySearchTree.c.obj"
-  "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Book/Book.c" "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/cmake-build-debug/CMakeFiles/Project3.dir/Book/Book.c.obj"
-  "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/DynamicList/DynamicList.c" "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/cmake-build-debug/CMakeFiles/Project3.dir/DynamicList/DynamicList.c.obj"
-  "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/HashTable/HashTable.c" "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/cmake-build-debug/CMakeFiles/Project3.dir/HashTable/HashTable.c.obj"
-  "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Heap/Heap.c" "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/cmake-build-debug/CMakeFiles/Project3.dir/Heap/Heap.c.obj"
-  "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/main.c" "D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/cmake-build-debug/CMakeFiles/Project3.dir/main.c.obj"
+  "C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/Array/Array.c" "C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/cmake-build-debug/CMakeFiles/Project3.dir/Array/Array.c.obj"
+  "C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/BinarySearchTree/BinarySearchTree.c" "C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/cmake-build-debug/CMakeFiles/Project3.dir/BinarySearchTree/BinarySearchTree.c.obj"
+  "C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/Book/Book.c" "C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/cmake-build-debug/CMakeFiles/Project3.dir/Book/Book.c.obj"
+  "C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/DynamicList/DynamicList.c" "C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/cmake-build-debug/CMakeFiles/Project3.dir/DynamicList/DynamicList.c.obj"
+  "C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/HashTable/HashTable.c" "C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/cmake-build-debug/CMakeFiles/Project3.dir/HashTable/HashTable.c.obj"
+  "C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/Heap/Heap.c" "C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/cmake-build-debug/CMakeFiles/Project3.dir/Heap/Heap.c.obj"
+  "C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/main.c" "C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/cmake-build-debug/CMakeFiles/Project3.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
