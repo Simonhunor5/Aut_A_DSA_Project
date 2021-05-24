@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/Book/Book.c
+Book.h
+C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/Book/Book.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+
+C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/Book/Book.h
+
+C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/DynamicList/DynamicList.c
+stdio.h
+-
+stdlib.h
+-
+DynamicList.h
+C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/DynamicList/DynamicList.h
+
+C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/DynamicList/DynamicList.h
+
+C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/main.c
+stdio.h
+-
+Book/Book.h
+C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/Book/Book.h
+

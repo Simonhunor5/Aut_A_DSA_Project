@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Project3.dir/Array/Array.c.obj"
   "CMakeFiles/Project3.dir/BinarySearchTree/BinarySearchTree.c.obj"
+  "CMakeFiles/Project3.dir/Book/Book.c.obj"
   "CMakeFiles/Project3.dir/DynamicList/DynamicList.c.obj"
   "CMakeFiles/Project3.dir/HashTable/HashTable.c.obj"
   "CMakeFiles/Project3.dir/Heap/Heap.c.obj"

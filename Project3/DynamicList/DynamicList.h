@@ -5,18 +5,23 @@
 #ifndef PROJECT3_DYNAMICLIST_H
 #define PROJECT3_DYNAMICLIST_H
 
+#include "../Book/Book.h"
+
 typedef struct{
     struct Node *next;
-    struct Node *data;
+    Book *data;
 } Node;
 
 
 Node *create();
 
-void readFromFile(Node **uppercase, Node **lowercase, char *fileName);
+void readFromFile(Node **List, char *fileName);
 
-void insert(Node **front, char data, int index);
+void insert(Node **front, Book* data);
 
-void traverse(Node *front);
+char* searchByTitle(Node* List, char* title);
+
+char* searchByAuthor(Node* List, char* author);
+
 
 #endif //PROJECT3_DYNAMICLIST_H
