@@ -1,0 +1,66 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Array/Array.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+Array.h
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Array/Array.h
+
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Array/Array.h
+
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/BinarySearchTree/BinarySearchTree.c
+stdio.h
+-
+stdlib.h
+-
+BinarySearchTree.h
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/BinarySearchTree/BinarySearchTree.h
+
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/BinarySearchTree/BinarySearchTree.h
+
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/DynamicList/DynamicList.c
+stdio.h
+-
+stdlib.h
+-
+DynamicList.h
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/DynamicList/DynamicList.h
+
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/DynamicList/DynamicList.h
+
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/HashTable/HashTable.c
+stdio.h
+-
+stdlib.h
+-
+HashTable.h
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/HashTable/HashTable.h
+
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/HashTable/HashTable.h
+
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Heap/Heap.c
+Heap.h
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Heap/Heap.h
+stdio.h
+-
+stdlib.h
+-
+
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Heap/Heap.h
+
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/main.c
+stdio.h
+-
+Functions.h
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Functions.h
+
