@@ -5,9 +5,7 @@
 #include "Heap.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <vss.h>
 #include <string.h>
-#include "../Book/Book.h"
 
 Heap *createHeap(int max) {
     Heap *h = (Heap *) malloc(sizeof(Heap));

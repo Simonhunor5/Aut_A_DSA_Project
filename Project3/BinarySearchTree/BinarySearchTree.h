@@ -5,15 +5,17 @@
 #ifndef PROJECT3_BINARYSEARCHTREE_H
 #define PROJECT3_BINARYSEARCHTREE_H
 
+#include "../Book/Book.h"
+
 typedef struct {
-    int data;
     struct Root *left;
     struct Root *right;
+    Book *data;
 } Root;
 
-Root *create(int a);
+Root *create(char *a, char *t);
 
-void insert(Root **tree, int a);
+void insert(Root **tree, char *a, char *t);
 
 void inorder(Root *tree);
 
