@@ -6,36 +6,19 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< HEAD
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Book/Book.h
-
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Heap/Heap.c
-Heap.h
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Heap/Heap.h
-=======
-C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/Array/Array.c
->>>>>>> origin/main
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/BinarySearchTree/BinarySearchTree.c
 stdio.h
 -
 stdlib.h
 -
-<<<<<<< HEAD
 string.h
 -
+BinarySearchTree.h
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/BinarySearchTree/BinarySearchTree.h
+
+D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/BinarySearchTree/BinarySearchTree.h
 ../Book/Book.h
 D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Book/Book.h
 
-D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Heap/Heap.h
-../Book/Book.h
 D:/Info/I ev/II felev/Adat Alg/Labor/Aut_A_DSA_Project/Project3/Book/Book.h
-=======
-Array.h
-C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/Array/Array.h
-
-C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/Array/Array.h
-../Book/Book.h
-C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/Book/Book.h
-
-C:/Users/simon/Documents/DSA_Project/Aut_A_DSA_Project/Project3/Book/Book.h
->>>>>>> origin/main
 

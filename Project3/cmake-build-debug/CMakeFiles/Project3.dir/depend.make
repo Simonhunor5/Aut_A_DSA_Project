@@ -7,6 +7,7 @@ CMakeFiles/Project3.dir/Array/Array.c.obj: ../Book/Book.h
 
 CMakeFiles/Project3.dir/BinarySearchTree/BinarySearchTree.c.obj: ../BinarySearchTree/BinarySearchTree.c
 CMakeFiles/Project3.dir/BinarySearchTree/BinarySearchTree.c.obj: ../BinarySearchTree/BinarySearchTree.h
+CMakeFiles/Project3.dir/BinarySearchTree/BinarySearchTree.c.obj: ../Book/Book.h
 
 CMakeFiles/Project3.dir/Book/Book.c.obj: ../Book/Book.c
 CMakeFiles/Project3.dir/Book/Book.c.obj: ../Book/Book.h

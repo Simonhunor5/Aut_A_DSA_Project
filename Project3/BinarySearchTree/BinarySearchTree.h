@@ -17,6 +17,6 @@ Root *create(char *a, char *t);
 
 void insert(Root **tree, char *a, char *t);
 
-void inorder(Root *tree);
+void inorder(Root *tree, char *t);
 
 #endif //PROJECT3_BINARYSEARCHTREE_H

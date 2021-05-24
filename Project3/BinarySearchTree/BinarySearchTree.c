@@ -36,7 +36,7 @@ void insert(Root **fa, char *a, char *t) {
 }
 
 void inorder(Root *fa, char *t) {
-    if (fa->->left)
+    if (fa->left)
         inorder(fa->left, t);
 
     if (strcmp(fa->data->title, t) == 1) {
